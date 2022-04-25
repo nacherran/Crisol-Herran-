@@ -43,7 +43,6 @@
     flex-direction: row;
     transition: all 3s;
 }
-
 .img:hover{
     transform: rotate(360deg);
 }
