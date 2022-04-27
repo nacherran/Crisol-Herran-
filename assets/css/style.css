@@ -6,7 +6,7 @@
     display: grid;
     gap: 5px;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 80px 500px auto auto 300px;
+    grid-template-rows: 80px auto auto auto 300px;
     grid-template-areas: "nav        nav"
                          "header  header" 
                          "main     main"
@@ -59,7 +59,7 @@
     .contenedor{
         gap: 15px;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: 100px 200px auto 150px;
+        grid-template-rows: 100px auto auto 150px;
         grid-template-areas: "nav    nav    nav   nav"
                             "header header header header"
                             "main   main   main  aside"
@@ -87,10 +87,12 @@
     font-size: 18px;
     color: white;
 }
+
 .encabezado{
     grid-area: header;
     background-image: url(../img/olivares.jpg);
     background-size: cover;
+
 }
 .encabezad2{
     grid-area: header;
@@ -190,7 +192,7 @@
     .contenedor{
         gap: 20px;
         grid-template-columns: repeat(8,1fr);
-        grid-template-rows: 200px 300px auto 250px;
+        grid-template-rows: 200px auto auto 250px;
         grid-template-areas: "nav    nav    nav   nav     nav    nav    nav    nav"
                             "header header header header header header header header"
                             "main    main    main   main    main   aside  aside aside"
