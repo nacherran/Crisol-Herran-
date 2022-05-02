@@ -2,16 +2,9 @@
     margin: 0;
     padding: 0;
 }
-.contenedor{
-    display: grid;
-    gap: 5px;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 80px auto auto auto 300px;
-    grid-template-areas: "nav        nav"
-                         "header  header" 
-                         "main     main"
-                         "aside   aside" 
-                         "footer  footer";
+
+.navbar{
+    background-color: #050 !important;
 }
 .navegacion{
     grid-area: nav;
