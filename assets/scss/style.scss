@@ -1,16 +1,16 @@
 @import "_footer";
 @import "_variables";
-
+@import "_productos";
 
  
 
 body{
-    background-color: $colorprimario;
+    background-color: $colorPrimario;
     margin: 0%;
     padding: 0%;
     color: white;
     .container-fluid{
-        background-color: $colorsecundario;
+        background-color: $colorSecundario;
         font-size: 20px;
     }
 }
